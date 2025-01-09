@@ -28,7 +28,7 @@ a {
   color: #2d2d2d;
 }
 
-.main_container__upper_container {
+.header__main_container__upper_container {
   display: flex;
   align-items: center;
   gap: 5vw;
@@ -36,13 +36,13 @@ a {
 
 /* Шапка > Навигация */
 
-.nav__ul_container {
+.header__nav__ul_container {
   display: flex;
   gap: 3vw;
   list-style: none;
 }
 
-.ul_container__li:after {
+.header__ul_container__li:after {
   content: "";
   display: block;
   margin: auto;
@@ -52,18 +52,18 @@ a {
   transition: width 0.5s ease, background-color 0.5s ease;
 }
 
-.ul_container__li:hover:after {
+.header__ul_container__li:hover:after {
   width: 100%;
   background: #2d2d2d;
 }
 
-.li__link {
+.header__li__link {
   font-weight: bold;
   color: #2d2d2d;
 }
 
 /* Шапка > Телефон */
-.upper_container__phone_container {
+.header__upper_container__phone_container {
   display: grid;
   align-items: center;
   column-gap: 9px;
@@ -71,21 +71,21 @@ a {
   grid-template-rows: 2fr;
 }
 
-.phone_container__phone_icon {
+.header__phone_container__phone_icon {
   grid-column: 1;
 }
 
-.phone_container__phone_number {
+.header__phone_container__phone_number {
   grid-column: 2;
   font-weight: bold;
   font-size: 16px;
 }
 
-.phone_container__arrow {
+.header__phone_container__arrow {
   grid-column: 3;
 }
 
-.phone_container__order {
+.header__phone_container__order {
   justify-self: end;
   grid-column: 2;
   grid-row: 2;
@@ -97,14 +97,14 @@ a {
   padding-bottom: 2px;
 }
 
-.main_container__team_photo {
+.header__main_container__team_photo {
   position: absolute;
   bottom: 0;
   left: 39%;
   mix-blend-mode: multiply;
 }
 
-.main_container__main_text {
+.header__main_container__main_text {
   display: inline-block;
   text-transform: uppercase;
   font-size: 32px;
