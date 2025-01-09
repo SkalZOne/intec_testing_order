@@ -1,9 +1,13 @@
+/* Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html,
 body {
   margin: 0;
-  font-family: "Montserrat", serif;
+  font-family: "Roboto", serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -12,17 +16,19 @@ a {
 
 /* Шапка */
 .header {
+  font-family: "Montserrat", serif;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: calc(100vh - 20px);
+  height: fit-content;
   background-color: #ffdda7;
   padding: 20px 0 0 0;
   color: #2d2d2d;
 }
 
-.header__upper_container {
+.main_container__upper_container {
   display: flex;
   align-items: center;
   gap: 5vw;
@@ -89,4 +95,20 @@ a {
   border-bottom-style: dashed;
   width: fit-content;
   padding-bottom: 2px;
+}
+
+.main_container__team_photo {
+  position: absolute;
+  bottom: 0;
+  left: 39%;
+  mix-blend-mode: multiply;
+}
+
+.main_container__main_text {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 192px;
+  margin-bottom: 300px;
 }
