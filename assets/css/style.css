@@ -136,7 +136,7 @@ a {
   align-items: center;
   grid-template-columns: 50% 50%;
   grid-template-rows: 400px 400px 400px 400px;
-  padding: 0 5%;
+  padding: 0 5% 200px 5%;
 }
 
 /* Контейнеры с контентом */
@@ -198,12 +198,99 @@ a {
   color: white;
 }
 
-.services__main_container
-  .services__main_container__content_block:nth-child(odd) {
+.services__main_container__content_block:nth-child(odd) {
   margin-right: 15vw;
 }
 
-.services__main_container
-  .services__main_container__content_block:nth-child(even) {
+.services__main_container__content_block:nth-child(even) {
   margin-left: 15vw;
+}
+
+/* Отзывы клиентов */
+.reviews {
+  position: relative;
+  background-color: #3e3e3d;
+  padding: 0 0 70px 10vw;
+  overflow: hidden;
+}
+
+.reviews__title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-top: 125px;
+  margin-left: 288px;
+  margin-bottom: 116px;
+}
+
+.reviews__main_content {
+  z-index: 2;
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews__main_content__documents {
+  display: flex;
+  gap: 47px;
+}
+
+.reviews__main_content__slider_buttons {
+  display: flex;
+  margin-top: 40px;
+}
+
+.reviews__main_content__slider_buttons__btn {
+  width: 37px;
+  height: 37px;
+}
+
+.reviews__main_content__btn_2__arrow {
+  rotate: 180deg;
+}
+
+.reviews__main_content__slider_buttons__btn {
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.reviews__main_content__slider_buttons__btn_1 {
+  background-color: #c4c4c4;
+}
+
+.reviews__main_content__slider_buttons__btn_2 {
+  background-color: #dc911b;
+  transition: .2s;
+}
+
+.reviews__main_content__slider_buttons__btn_2:hover {
+  background-color: white;
+  border: 1px solid #dc911b;
+}
+
+.reviews__main_content__slider_buttons__btn_2:hover .reviews__btn_2__arrow {
+  filter: invert(73%) sepia(24%) saturate(2389%) hue-rotate(344deg)
+    brightness(88%) contrast(96%);
+}
+
+.reviews__main_content__show_all {
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.reviews__human {
+  position: absolute;
+  top: -20px;
+  left: 800px;
 }
