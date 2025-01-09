@@ -1,8 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 html,
 body {
-    margin: 0;
-    font-family: "Montserrat", serif;
+  margin: 0;
+  font-family: "Montserrat", serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Шапка */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 20px);
+  background-color: #ffdda7;
+  padding: 20px 0 0 0;
+  color: #2d2d2d;
+}
+
+.header__upper_container {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+}
+
+/* Шапка > Навигация */
+
+.nav__ul_container {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+}
+
+.ul_container__li:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.ul_container__li:hover:after {
+  width: 100%;
+  background: #2d2d2d;
+}
+
+.li__link {
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+/* Шапка > Телефон */
+.upper_container__phone_container {
+  display: grid;
+  align-items: center;
+  column-gap: 9px;
+  grid-template-columns: 3fr;
+  grid-template-rows: 2fr;
+}
+
+.phone_container__phone_icon {
+  grid-column: 1;
+}
+
+.phone_container__phone_number {
+  grid-column: 2;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.phone_container__arrow {
+  grid-column: 3;
+}
+
+.phone_container__order {
+  justify-self: end;
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 12px;
+  color: #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
+  border-bottom-style: dashed;
+  width: fit-content;
+  padding-bottom: 2px;
 }
