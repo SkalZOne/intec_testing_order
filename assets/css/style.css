@@ -31,7 +31,7 @@ a {
 .header__main_container__upper_container {
   display: flex;
   align-items: center;
-  gap: 5vw;
+  gap: 3vw;
 }
 
 /* Шапка > Навигация */
