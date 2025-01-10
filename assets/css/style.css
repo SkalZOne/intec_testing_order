@@ -360,3 +360,55 @@ a {
   rotate: 180deg;
   filter: invert(57%) sepia(99%) saturate(486%) hue-rotate(353deg) brightness(92%) contrast(86%);
 }
+
+/* Новости */
+.news {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  padding: 0 120px;
+  gap: 5vw;
+  padding-top: 206px;
+}
+
+.news__title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 120%;
+  max-width: 200px;
+}
+
+.news__image {
+  position: absolute;
+  top: 372px;
+  left: 80px;
+}
+
+.news__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 228px;
+}
+
+.news__content__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.news__content__date {
+  font-weight: 300;
+  font-size: 14px;
+  color: #6F6F6E;
+}
+
+.news__content__main_text {
+  line-height: 150%;
+}
+
+.news__content__btn {
+  margin-top: 7px;
+}
