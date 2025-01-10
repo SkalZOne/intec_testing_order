@@ -693,7 +693,7 @@ a {
 }
 
 .clients__companies_container__vertical_line {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   width: 100%;
   height: 100%;
 }
@@ -716,12 +716,172 @@ a {
 .clients__companies_container__horizontal_line {
   grid-column: 1/-1;
   grid-row: 2;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   width: 100%;
   height: 100%;
 }
 
 /* Футер */
 .footer {
+  font-family: "Montserrat", serif;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 1fr;
+  grid-template-rows: 280px 1px 130px;
+  background-color: #3e3e3d;
+  padding: 10px 10%;
+}
 
+.footer__list__first {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.footer__list__second {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.footer__list__third {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.footer__list__title {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.footer__list__ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__list__ul__dot {
+  margin-top: 10px;
+}
+
+.footer__list__ul__dot__link {
+  color: #777e89;
+  font-size: 14px;
+  transition: .2s;
+}
+
+.footer__list__ul__dot__link:hover {
+  color: #dc911b;
+}
+
+.footer__main_container {
+  grid-column: 4;
+  grid-row: 1;
+  padding-top: 30px;
+}
+
+.footer__main_container__search_container {
+  position: relative;
+}
+
+.footer__main_container__search_container__input {
+  width: calc(100% - 38px);
+  padding: 14px 18px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: #dadada;
+  font-size: 13px;
+}
+
+.footer__main_container__search_container__input:focus {
+  outline: none;
+}
+
+.footer__main_container__search_container__input::placeholder {
+  color: #dadada;
+}
+
+.footer__main_container__search_container__image {
+  position: absolute;
+  right: 12px;
+  top: 14px;
+}
+
+.footer__main_container__bottom_container {
+  display: flex;
+  gap: 20%;
+}
+
+.footer__main_container__bottom_container__contacts {
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.footer__main_container__bottom_container__contacts div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__main_container__bottom_container__contacts__geo {
+  margin-top: 22px;
+}
+
+.footer__main_container__bottom_container__contacts__text {
+  color: white;
+}
+
+.footer__main_container__bottom_container__contacts__email__text {
+  border-bottom: 1px solid white;
+}
+
+.footer__main_container__phone {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer__main_container__phone__number {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.footer__main_container__phone__call {
+  font-family: "Montserrat", serif;
+  padding: 12px 21px;
+  margin-top: 15px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: #fd9913;
+  border: 1px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.footer__main_container__phone__call:hover {
+  background-color: transparent;
+  border: 1px solid #fd9913;
+}
+
+.footer__line {
+  background-color: #777e89;
+  grid-column: 1/-1;
+  grid-row: 2;
+}
+
+.footer__copywrite {
+  align-self: center;
+  font-size: 13px;
+  color: #777e89;
+}
+
+.footer__logo {
+  align-self: center;
+  justify-self: center;
+  grid-column: 3;
 }
