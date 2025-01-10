@@ -1,7 +1,9 @@
 /* Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* Roboto */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Scada */
+@import url("https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* Подключение global.css */
 @import url(globals.css);
@@ -346,7 +348,8 @@ a {
   width: 9.5px;
   height: 17px;
   rotate: 180deg;
-  filter: invert(57%) sepia(99%) saturate(486%) hue-rotate(353deg) brightness(92%) contrast(86%);
+  filter: invert(57%) sepia(99%) saturate(486%) hue-rotate(353deg)
+    brightness(92%) contrast(86%);
 }
 
 /* Новости */
@@ -387,7 +390,7 @@ a {
 
 .news__content:last-of-type {
   padding-left: 5vw;
-  border-left: 1px solid #B1B1B0;
+  border-left: 1px solid #b1b1b0;
 }
 
 .news__content__title {
@@ -400,7 +403,7 @@ a {
 .news__content__date {
   font-weight: 300;
   font-size: 14px;
-  color: #6F6F6E;
+  color: #6f6f6e;
 }
 
 .news__content__main_text {
@@ -422,3 +425,90 @@ a {
   line-height: 120%;
 }
 
+/* Вопросы */
+.questions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 360px;
+  padding-bottom: 20px;
+}
+
+.questions__line {
+  z-index: -2;
+  position: absolute;
+  top: -60px;
+}
+
+.questions__main_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 143px 23px 143px;
+  background-color: #ffe0b0;
+}
+
+.questions__main_form__call_man {
+  z-index: -1;
+  position: absolute;
+  left: -169px;
+  bottom: -20px;
+}
+
+.questions__main_form__call_woman {
+  z-index: 1;
+  position: absolute;
+  right: -58px;
+  bottom: -15px;
+}
+
+.questions__main_form__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.questions__main_form__text {
+  font-size: 14px;
+  margin-top: 11px;
+}
+
+.questions__main_form__inputs {
+  display: flex;
+  gap: 54px;
+  margin: 36px 0;
+}
+
+.questions__main_form__inputs input {
+  font-family: "Scada", serif;
+  font-size: 12px;
+  background-color: transparent;
+  padding: 6px 0 6px 10px;
+  border: none;
+  color: #3e3e3d;
+}
+
+.questions__main_form__inputs input::placeholder {
+  color: #3e3e3d;
+}
+
+.questions__main_form__inputs input:focus {
+  outline: none;
+}
+
+.questions__main_form__first_input {
+  border-bottom: 1px solid #dc911b !important;
+}
+
+.questions__main_form__second_input {
+  border-bottom: 1px solid #3e3e3d !important;
+}
+
+.questions__main_form__submit_btn {
+  position: absolute;
+  background-color: transparent;
+  bottom: -20px;
+}
