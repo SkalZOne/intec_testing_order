@@ -566,3 +566,59 @@ a {
   font-size: 18px;
   color: black;
 }
+
+/* Сертификаты */
+.certificates {
+  margin-top: 90px;
+  position: relative;
+  background-color: #3e3e3d;
+  padding: 0 0 70px 190px;
+  overflow: hidden;
+}
+
+.certificates__main_content {
+  z-index: 2;
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificates__main_content__title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-top: 125px;
+  margin-left: 20px;
+  margin-bottom: 116px;
+}
+
+.certificates__main_content__documents {
+  display: flex;
+  gap: 47px;
+}
+
+.certificates__main_content__slider_buttons {
+  display: flex;
+  margin-top: 40px;
+}
+
+.certificates__main_content__show_all {
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.certificates__human {
+  position: absolute;
+  top: -20px;
+  left: 50vw;
+}
