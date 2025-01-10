@@ -1,0 +1,30 @@
+.global__btn {
+  width: 37px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.global__btn__inactive {
+  background-color: #c4c4c4;
+}
+
+.global__btn__active {
+  background-color: #dc911b;
+  transition: 0.2s;
+}
+
+.global__btn__rotated img {
+    rotate: 180deg;
+}
+
+.global__btn__active:hover {
+  background-color: white;
+  border: 1px solid #dc911b;
+}
+
+.global__btn__active:hover img {
+  filter: invert(73%) sepia(24%) saturate(2389%) hue-rotate(344deg)
+    brightness(88%) contrast(96%);
+}

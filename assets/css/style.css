@@ -3,6 +3,9 @@
 /* Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Подключение global.css */
+@import url(globals.css);
+
 html,
 body {
   margin: 0;
@@ -242,40 +245,6 @@ a {
   margin-top: 40px;
 }
 
-.reviews__main_content__slider_buttons__btn {
-  width: 37px;
-  height: 37px;
-}
-
-.reviews__main_content__btn_2__arrow {
-  rotate: 180deg;
-}
-
-.reviews__main_content__slider_buttons__btn {
-  border: none;
-  cursor: pointer;
-  border: 1px solid transparent;
-}
-
-.reviews__main_content__slider_buttons__btn_1 {
-  background-color: #c4c4c4;
-}
-
-.reviews__main_content__slider_buttons__btn_2 {
-  background-color: #dc911b;
-  transition: 0.2s;
-}
-
-.reviews__main_content__slider_buttons__btn_2:hover {
-  background-color: white;
-  border: 1px solid #dc911b;
-}
-
-.reviews__main_content__slider_buttons__btn_2:hover .reviews__btn_2__arrow {
-  filter: invert(73%) sepia(24%) saturate(2389%) hue-rotate(344deg)
-    brightness(88%) contrast(96%);
-}
-
 .reviews__main_content__show_all {
   position: absolute;
   bottom: 0;
@@ -371,27 +340,6 @@ a {
 
 .project__text_and_btn__btn {
   justify-self: end;
-  width: 34px;
-  height: 34px;
-  border: none;
-  cursor: pointer;
-  border: 1px solid transparent;
-  background-color: #dc911b;
-  transition: 0.2s;
-}
-
-.project__text_and_btn__btn__image {
-  rotate: 180deg;
-}
-
-.project__text_and_btn__btn:hover {
-  background-color: white;
-  border: 1px solid #dc911b;
-}
-
-.project__text_and_btn__btn:hover .reviews__btn_2__arrow {
-  filter: invert(73%) sepia(24%) saturate(2389%) hue-rotate(344deg)
-    brightness(88%) contrast(96%);
 }
 
 .projects__main_container__link_all {
