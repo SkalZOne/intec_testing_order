@@ -184,21 +184,9 @@ a {
   line-height: 150%;
 }
 
-.services__content_block__more_button {
+.services__main_container__content_block__btn {
   align-self: flex-end;
-  text-align: end;
   justify-self: flex-end;
-  font-size: 14px;
-  padding: 11px 26px;
-  border: 1px solid #dc911b;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-.services__content_block__more_button:hover {
-  background-color: #dc911b;
-  color: white;
 }
 
 .services__main_container__content_block:nth-child(odd) {
