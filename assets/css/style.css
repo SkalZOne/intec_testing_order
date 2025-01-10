@@ -512,3 +512,57 @@ a {
   background-color: transparent;
   bottom: -20px;
 }
+
+/* Полезные статьи */
+.useful_articles {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 13vw;
+}
+
+.useful_articles__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  margin: 185px 0 90px 0;
+}
+
+.useful_articles__articles {
+  display: flex;
+  gap: 53px;
+  padding: 0 0 0 30px;
+}
+
+.article {
+  font-family: "Montserrat", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article__title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.article__date {
+  font-weight: 400;
+  color: #C6C6C6;
+  font-size: 12px;
+}
+
+.article__text {
+  font-weight: medium;
+  font-size: 12px;
+}
+
+.useful_articles__all_articles {
+  align-self: flex-end;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
