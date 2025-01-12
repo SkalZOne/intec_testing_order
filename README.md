@@ -1,210 +1,307 @@
-# Тестовый заказ от компании "INTEC" на верстку макета
+<!-- Repository name -->
+<h1>Testing order by company "INTEC" for layout creation</h1>
 
-## Запуск
+<!-- Translates -->
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](./README_ru.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 
-1. Склонировать данный репозиторий:
-   ```
-   git clone https://github.com/SkalZOne/intec_testing_order.git
-   ```
-2. Перейти в каталог компонента
+<!-- Table of contents -->
+<h2>Table of contents</h2>
+<ul>
 
-3. Запустить файл **index.html**
+<!-- Installation -->
+<li>
+    <a href="#installation">Installation</a>
+    <ul>
+        <li>
+            <a href="#installation-clone">Clone repository</a>
+        </li>
+    </ul>
+</li>
 
-### :white_check_mark: Успешно :white_check_mark:
+<!-- Launch -->
+<li>
+    <a href="#launch">Launch</a>
+</li>
 
-После выполнения данных действий в браузере по умолчанию откроется главная страница проекта
+<!-- Project structure -->
+<li>
+    <a href="#structure">Project structure</a>
+</li>
 
-## Структура проекта
+<!-- Demonstration -->
+<li>
+    <a href="#demo">Demonstration</a>
+</li>
 
-- Входной файл сайта - **index.html**
-- Основная папка сайта - **assets/**
-- CSS файлы - **assets/css/**
-- Изображения
-  - .png - **assets/css/png/**
-  - .svg - **assets/css/svg/**
-- Скрипты (которых нету :laughing:) - **assets/js/**
-- Папка с изображениями для README - **readme_imgs/**
+<!-- Work done that is not included in the figma design file -->
+<li>
+    <a href="#non-figma-work">Work done that is not included in the figma design file</a>
+</li>
 
-## Сделанная работа не входящая в файл дизайна фигмы
+<!-- Remarks -->
+<li>
+    <a href="#remark">Remarks</a>
+</li>
+</ul>
 
+
+<!-- Installation -->
+<h2><a id="installation">Installation</a></h2>
+<ul>
+<!-- Clone repository -->
+<li>
+    <a id="installation-clone">Clone this repository</a>
+    <pre>git clone https://github.com/SkalZOne/intec_testing_order.git</pre>
+</li>
+
+✅Great, you can now move on to the "Startup" section.✅
+</ul>
+
+<!-- Launch -->
+<h2><a id="launch">Launch</a></h2>
+<ul>
+    <li>
+        Go to website directory
+        <pre>cd intec_testing_order</pre>
+    </li>
+    <li>
+        Launch <b>index.html</b> file
+    </li>
+</ul>
+<h4>✅ Done ✅</h4>
+After completing these steps, the project's main page will open in your default browser.
+
+<!-- Project structure -->
+<h2><a id="structure">Project structure</a></h2>
+<ul>
+    <li>Website index file - <b>index.html</b></li>
+    <li>Website main folder - <b>assets/</b></li>
+    <li>CSS files - <b>assets/css/</b></li>
+    <li>Images
+    <ul>
+        <li>.png - <b>assets/css/png/</b></li>
+        <li>.svg - <b>assets/css/svg/</b></li>
+    </ul>
+    </li>
+    <li>Scripts (which are not there :laughing:) - <b>assets/js/</b></li>
+    <li>Folder with images for README - <b>Readme/ReadmeImages/</b></li>
+</ul>
+
+<!-- Demonstration -->
+<h2><a id="demo">Demonstration</a></h2>
+<img alt="first" src="readme_imgs/first.png">
+<img alt="second" src="readme_imgs/second.png">
+<img alt="third" src="readme_imgs/third.png">
+<img alt="fourth" src="readme_imgs/fourth.png">
+<img alt="fiveth" src="readme_imgs/fiveth.png">
+<img alt="sixth" src="readme_imgs/sixth.png">
+<img alt="seventh" src="readme_imgs/seventh.png">
+<img alt="eighth" src="readme_imgs/eighth.png">
+<img alt="ninth" src="readme_imgs/ninth.png">
+
+<!-- Work done that is not included in the figma design file -->
+<h2><a id="non-figma-work">Work done that is not included in the figma design file</a></h2>
 <details>
-<summary>Откройте меня</summary>
+<summary>Open me</summary>
+
+> [!IMPORTANT]  
+> I can do this unauthorized work only on a test task. During actual development, I will always consult in advance.
+   
 <ul>
 <details>
-<summary>Добавлена анимация нижней линии для ссылок в навигационном контейнере</summary>
+<summary>Added bottom line animation for links in the navigation container</summary>
 <img src="readme_imgs/nav_a_animations.png" alt="nav-a-animations"></img>
 </details>
 <details>
-<summary>Добавлена анимация при наведении на ссылки в подвале сайта</summary>
+<summary>Added animation when hovering over links in the site footer</summary>
 <img src="readme_imgs/footer_links_animations.png" alt="footer-links-animations"></img>
 </details>
 <details>
-<summary>Добавлена анимация кнопки обратной связи в подвале сайта</summary>
+<summary>Added animation of the feedback button in the footer of the site</summary>
 <img src="readme_imgs/footer_btn_animations.png" alt="footer-btn-animations"></img>
 </details>
 </ul>
 </details>
 
-## Примечания
 
-- Так как я решил сделать проект за один день (что было критической ошибкой :sleepy:), последние коммиты я делал в очень уставшем состоянии, а конкретнее эти:
-  ![sleepy-condition](readme_imgs/sleepy_condition.png)
-  поэтому в них я мог допустить очень глупые и обидные ошибки
-
-- Также прошу обратить ваше внимание на свои остальные проекты. <br> Буду идти по нарастающей, **чем дальше - тем сложнее и обьемнее был проект**.<br> Если вы не можете уделить времени на просмотр всех пунктов, тогда лучше начать с конца. <br> Однако я все равно <b>рекомендую прочитать все с самого начала, так как в данных пунктах есть хронология моего роста как разработчика</b>:
-
-  1.  <details>
-      <summary>Верстка: "EverAfter" на нативном <b>HTML и CSS</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      <b>Описание:</b><br>
-      Одна из самых базовых работ, на нативном HTML и CSS<br>
-      <a href="https://github.com/SkalZOne/second_verst">Ссылка на проект</a>
-      </details>
-  2.  <details>
-      <summary>Верстка: "NanoCard" и "FigmaLand" на <b>SASS и Gulp</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>Gulp</li>
-      </ul>
-      <b>Описание:</b><br>
-      Тут содержится сразу два проекта, так как они не сильно отличаются по своему стеку <br>
-      Я уже успел изучить препроцессор SASS и вместе с ним изучил сборщик Gulp. <br>
-      Здесь ещё наблюдаются очень старые и скорее всего (уже не помню :sweat_smile:) взятые из интернета конфиги Gulp-а<br>
-      <a href="https://github.com/SkalZOne/gulp_SASS_first_verst">Ссылка на проект "NanoCard"</a>
-      <br>
-      <a href="https://github.com/SkalZOne/Gulp_SASS_Second_Verst">Ссылка на проект "FigmaLand"</a>
-      </details>
-  3.  <details>
-      <summary>Верстка: "IroRun" и "DSI" на <b>SASS, Gulp и Pug</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>Gulp</li>
-        <li>Pug</li>
-      </ul>
-      <b>Описание:</b><br>
-      Это мои первые проекты после изучения препроцессора Pug<br>
-      Они также почти ничем не отличаются между друг другом, так что я решил их засунуть в один блок<br>
-      <a href="https://github.com/SkalZOne/GSP_First_Verst">Ссылка на проект "IroRun"</a>
-      <br>
-      <a href="https://github.com/SkalZOne/GSP_Second_Verst">Ссылка на проект "DSI"</a>
-      </details>
-  4.  <details>
-      <summary>Верстка: "Muncim.Ro" и "ehya" <b>на своем конфиге Gulp</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>Gulp</li>
-        <li>Pug</li>
-      </ul>
-      <b>Описание:</b><br>
-      В этом проекте уже наблюдаются свои конфиги на Gulp-е, помню как я около 4ех дней это все настраивал и подключал :sweat_smile:<br>
-      <a href="https://github.com/SkalZOne/GSPC_First_Verst">Ссылка на проект "Muncim.Ro"</a>
-      <br>
-      <a href="https://github.com/SkalZOne/Rew.1-GSPC_First_Verst">Ссылка на проект "ehya"</a>
-      </details>
-  5.  <details>
-      <summary><b>Закрытие "гештальта"</b> под названием Gulp и создание своего полноценного конфига со сборкой</summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SASS</li>
-        <li>Gulp</li>
-        <li>Pug</li>
-      </ul>
-      <b>Описание:</b><br>
-      В данном проекте я решил сделать полностью свой самописный конфиг Gulp и реализовать несколько придуманных методов, на тот момент это было очень тяжко, потому что приходилось кодить на языке JavaScript, который я совершенно не знал.<br>
-      <br>
-      После этого я решаю углубленно изучить JavaScript и в итоге настолько сильно погружаюсь, что изучаю фреймворк React.js и ухожу во фриланс, полностью забив на гит.<br>
-      <a href="https://github.com/SkalZOne/gulp_default">Ссылка на проект</a>
-      </details>
-  6.  <details>
-      <summary>Первый проект на языке <b>PHP</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>MySQL</li>
-        <li>PHP</li>
-      </ul>
-      <b>Описание:</b><br>
-      После некоторой рефлексии на тему направления своего развития как разработчика и работы на фрилансе я решаю изучить PHP и после этого возвращаюсь на гит уже не как фронтенд, а как бэкенд разработчик и пишу свой первый CRUD на языке PHP <br>
-      <a href="https://github.com/SkalZOne/CRUD_PHP">Ссылка на проект</a>
-      </details>
-  7.  <details>
-      <summary>"Маленький" для индустрии, но большой для личного развития <b>первый FullStack проект</b> </summary>
-      <b>Стек:</b><br>
-      <ul>
-          <li>TailwindCSS</li>
-          <li>Laravel (PHP)</li>
-          <li>MySQL</li>
-          <li>Next.js (React)</li>
-      </ul>
-      <b>Описание:</b><br>
-      Мой первый FullStack проект на фреймворках <b>Next.js и Laravel.</b><br>
-      <br>
-      Проект супер простой, однако для меня это был большой шаг для продвижения в сфере разработки.<br>
-      <a href="https://github.com/SkalZOne/Fullstack_Laravel-Next">Ссылка на проект</a>
-      </details>
-  8.  <details>
-      <summary>Один из студенческих проектов: <b>сервисный центр: "Починим!"</b></summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>JavaScript</li>
-        <li>Laravel (PHP)</li>
-        <li>MySQL</li>
-        <li>Docker</li>
-      </ul>
-      <b>Описание:</b><br>
-      Проект полностью написанный на PHP языке с фреймворком Laravel.<br>
-      <br>
-      Была реализованы следующая логика:
-      <ul>
-        <li>Авторизация</li>
-        <li>Регистрация</li>
-        <li>Валидация данных</li>
-        <li>Выход</li>
-        <li>Удаление аккаунта</li>
-        <li>Создание заявки на ремонт</li>
-        <li>Редактирование заявки</li>
-      </ul>
-      Была написана первая полноценная документация по установке проекта. <br>
-      <br>
-      Также имеется видео с работой сайта. <br>
-      <a href="https://github.com/SkalZOne/Laravel_ServiceCenter">Ссылка на проект</a>
-      </details>
-  9.  <details>
-      <summary>(Бонус) Коммерческий проект Stack_Up, который все ещё на стадии разработки</summary>
-      <b>Стек:</b><br>
-      <ul>
-        <li>TailwindCSS</li>
-        <li>Next.js (React)</li>
-        <li>Laravel (PHP)</li>
-        <li>MySQL</li>
-        <li>Docker</li>
-      </ul>
-      <b>Описание:</b><br>
-      Самый крупный проект, который находится в разработке уже около 4-ех месяцев.<br>
-      Уже было реализовано очень много логики, как во фронтенд части, например <b>полный парсинг и рендеринг markdown файлов</b>, так и бекенд части, например <b>создание индивидуальных фильтрационных классов и интерфейсов в ООП.</b><br>
-      <br>
-      Так как это коммерческий проект, я смогу показать только какие-то части работы данного проекта. <br>
-      <br>
-      Есть как видео демонстрации работы данной системы, так и файл дизайна в фигме, полностью спроектированный мной.
-      </details>
-
-<br>
-
-# Спасибо за внимание!
+<!-- Remarks -->
+<h2><a id="remark">Remarks</a></h2>
+<ul>
+    <li>Since I decided to complete the project in one day (which was a critical mistake :sleepy:), I made the last commits in a very tired state, and more specifically these:<br>
+    <img alt="sleepy-condition" src="readme_imgs/sleepy_condition.png"><br>
+    so I could make very stupid and offensive mistakes in them
+    </li>
+    <li>
+    I also ask you to draw your attention to my other projects. <br> I will go progressively, <b>the further it goes, the more complex and voluminous the project was</b>.<br> If you cannot take the time to look at all the points, then it is better to start from the end. <br> However, I still <b>recommend reading everything from the very beginning, since these points contain a chronology of my growth as a developer</b>:
+    </li>
+    <li>
+        <details>
+            <summary>Layout: "EverAfter" on native <b>HTML and CSS</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <b>Description:</b><br>
+            One of the most basic works, using native HTML and CSS<br>
+            <a href="https://github.com/SkalZOne/second_verst">Project link</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>Layouts: "NanoCard" and "FigmaLand" on <b>SASS and Gulp</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Gulp</li>
+            </ul>
+            <b>Description:</b><br>
+            This contains two projects at once, since they are not very different in their stack <br>
+            I have already learned the SASS preprocessor and learned the Gulp builder along with it. <br>
+            Here we can still see very old and most likely (I don’t remember anymore :sweat_smile:) Gulp configs taken from the Internet<br>
+            <a href="https://github.com/SkalZOne/gulp_SASS_first_verst">Project link "NanoCard"</a>
+            <br>
+            <a href="https://github.com/SkalZOne/Gulp_SASS_Second_Verst">Project link "FigmaLand"</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>Layouts: "IroRun" and "DSI" on <b>SASS, Gulp and Pug</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Gulp</li>
+                <li>Pug</li>
+            </ul>
+            <b>Description:</b><br>
+            These are my first projects after learning the Pug<br> preprocessor
+            They are also almost indistinguishable from each other, so I decided to put them in one block<br>
+            <a href="https://github.com/SkalZOne/GSP_First_Verst">Project link "IroRun"</a>
+            <br>
+            <a href="https://github.com/SkalZOne/GSP_Second_Verst">Project link "DSI"</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>Layouts: "Muncim.Ro" and "ehya" <b>in my config Gulp</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Gulp</li>
+                <li>Pug</li>
+            </ul>
+            <b>Description:</b><br>
+            This project already has its own configs on Gulp, I remember how it took me about 4 days to set it all up and connect it :sweat_smile:<br>
+            <a href="https://github.com/SkalZOne/GSPC_First_Verst">Project link "Muncim.Ro"</a>
+            <br>
+            <a href="https://github.com/SkalZOne/Rew.1-GSPC_First_Verst">Project link "ehya"</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary><b>Closing the "gestalt"</b>called Gulp and creating your own full-fledged config with the assembly</summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Gulp</li>
+                <li>Pug</li>
+            </ul>
+            <b>Description:</b><br>
+            In this project, I decided to make my own completely self-written Gulp config and implement several invented methods; at that time it was very difficult, because I had to code in JavaScript, which I did not know at all.<br>
+            <br>
+            After that, I decide to study JavaScript in depth and end up getting so immersed that I study the React.js framework and go freelance, completely giving up on Git.<br>
+            <a href="https://github.com/SkalZOne/gulp_default">Project link</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>First project on <b>PHP</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+            </ul>
+            <b>Description:</b><br>
+            After some reflection on the direction of my development as a developer and working as a freelancer, I decide to learn PHP and after that I return to Git not as a front-end, but as a back-end developer and write my first CRUD in PHP <br>
+            <a href="https://github.com/SkalZOne/CRUD_PHP">Project link</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>Small for the industry, but big for personal development <b>the first FullStack project</b> </summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>TailwindCSS</li>
+                <li>Laravel (PHP)</li>
+                <li>MySQL</li>
+                <li>Next.js (React)</li>
+            </ul>
+            <b>Description:</b><br>
+            My first FullStack project on the <b>Next.js and Laravel frameworks.</b><br>
+            <br>
+            The project is super simple, but for me it was a big step forward in development.<br>
+            <a href="https://github.com/SkalZOne/Fullstack_Laravel-Next">Project link</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>One of the student projects: <b>service center: “We’ll fix it!”</b></summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>JavaScript</li>
+                <li>Laravel (PHP)</li>
+                <li>MySQL</li>
+                <li>Docker</li>
+            </ul>
+            <b>Description:</b><br>
+            The project is entirely written in PHP with the Laravel framework.<br>
+            <br>
+            The following logic was implemented:
+            <ul>
+                <li>Authorization</li>
+                <li>Registration</li>
+                <li>Data validation</li>
+                <li>Exit</li>
+                <li>Deleting an account</li>
+                <li>Creating a repair request</li>
+                <li>Editing an application</li>
+            </ul>
+            The first complete documentation for installing the project was written. <br>
+            <br>
+            There is also a video showing how the site works. <br>
+            <a href="https://github.com/SkalZOne/Laravel_ServiceCenter">Project link</a>
+        </details>
+    </li>
+    <li>
+        <details>
+            <summary>(Bonus) Commercial project Stack_Up, which is still under development</summary>
+            <b>Tech stack:</b><br>
+            <ul>
+                <li>TailwindCSS</li>
+                <li>Next.js (React)</li>
+                <li>Laravel (PHP)</li>
+                <li>MySQL</li>
+                <li>Docker</li>
+            </ul>
+            <b>Description:</b><br>
+            The largest project that has been in development for about 4 months.<br>
+            A lot of logic has already been implemented, both in the front-end part, for example <b>full parsing and rendering of markdown files</b>, and in the back-end part, for example <b>creating individual filtering classes and interfaces in OOP.</b><br>
+            <br>
+            Since this is a commercial project, I will only be able to show some parts of the work of this project. <br>
+            <br>
+            There is both a video demonstrating the operation of this system and a design file in figma, completely designed by me.
+        </details>
+    </li>
+</ul>
